@@ -15,16 +15,17 @@
 
     <div class="row vh-100 g-0">
         <div class="col-lg-6 position-relative d-none d-lg-block">
-            <div class="bg-holder" style="background-image: url(fondo.jpeg);"></div>
+            <div class="bg-holder" style="background-image: url(fondo2.jpeg);"></div>
         </div>
 
         <div class="col-lg-6">
 
             <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sn-0">
                 <div class=" col col-sm-6 col-lg-7 col-xl-7 ">
+                <div class="fondo">
                     <div class="container-fluid border border-secondaty rounded p-4">
                         <a href="#" class="d-flex justify-content-center mb-4">
-                            <img src="logoUabcs.png" alt="" width="60">
+                            <img src="logoUabcs.png" alt="" width="150">
                         </a>
 
                         <div class="text-center mb-5">
@@ -48,6 +49,7 @@
                         </form>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -58,13 +60,23 @@
         .title {
             font-family: Lexend Exa;
         }
+         
+        body{
+            background-color: rgb(239, 239, 239);
+        }
+
+        .fondo{
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10;
+        }
 
         .bg-holder {
             position: absolute;
             width: 100%;
             min-height: 100%;
             top: 0;
-            left: 0;
+            left:0;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
